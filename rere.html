@@ -5,37 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reres Hairlane Design</title>
-    <link rel="stylesheet" href="style.css">
+    <!--Css-link-->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;1,200;1,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&family=Nunito+Sans:ital,wght@0,300;0,400;1,200;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,700&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    <section class="header">
-        <nav>
-            <a href="rere.html"><img src="images/Reres-Logo.PNG"></a>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Wigs</a></li>
-                    <li><a href="">Bundles</a></li>
-                    <li><a href="">Closures & Frontals</a></li>
-                </ul>
-            </div>
-        </nav>
 
-        <div class="homepicture">
-            <img src="images/IMG-3902.jpg" alt="home" height="600" width="500">
-            <br>
-            <button class="overlay-button">Shop now</button>
+    <header>
+        <a href="#" class="logo"><img src="images/Reres-Logo.PNG" alt="" height="100" width="150"></a>
 
+        <ul class="navmenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Wigs</a></li>
+            <li><a href="#">Bundles</a></li>
+            <li><a href="#">Closures & Frontals</a></li>
+        </ul>
+
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-user'></i>
+            <a href="#"><i class='bx bx-shopping-bag'></i></a>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+                </div>
         </div>
-    </section>
-    <!--this is the footer part-->
-    <section class="Delivery">
-        <h1>Quick Delivery🚚</h1>
-        
+    </header>
+    
+    <main>
+        <section class="main-home">
+            <div class="main-text">
+                <div class="image-wrap">
+                    <img src="images/colored1.JPG" class="card-img-top" height="500" alt="Wavy">
+                </div>
+                <div class="main-home-container">
+                    <h5>Wavy Bouncy Collection</h5>
+                    <h1>Luxury & Sleek <br></h1>
+                    <p>There She Glows</p>
+                    <p style="background-image: url(images/colored1.JPG);"></p>
+                    <a href="#" class="main-button">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
 
-    </section>
+                <!-- <div class="downward-arrow">
+                    <a href="#bestsellers" class="down"><i class='bx bx-down-arrow-alt'></i></a>
+                </div> -->
+            </div>
+        </section>
+
+        <section class="main-products">
+            <!-- best-sellers-section -->
+            <div class="products-container">
+                <div class="bestselling-product" id="bestselling">
+                    <div class="center-text">
+                        <h2>Best Selling <span>units</span></h2>
+                    </div>
+                    <div class="products">
+                        <div class="row">
+                            <img src="images/ginger-1.jpeg" alt="" height="300" width="250">
+                            <div class="product-text">
+                                <!-- <h5>Donna Unit</h5> -->
+                            </div>
+                            <div class="price">
+                                <h4>Donna Unit</h4>
+                                <p>&#8358;415,000.00</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img src="images/straight4.JPG" alt="" height="300" width="250">
+                            <div class="product-text">
+                                <!-- <h5>Donna Unit</h5> -->
+                            </div>
+                            <div class="price">
+                                <h4>Susu Unit</h4>
+                                <p>&#8358;250,000.00</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img src="images/platinum-blonde.jpeg" alt="" height="300" width="250">
+                            <div class="product-text">
+                                <!-- <h5>Donna Unit</h5> -->
+                            </div>
+                            <div class="price">
+                                <h4>Peace Unit</h4>
+                                <p>&#8358;218,000.00</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img src="images/curly3.JPG" alt="" height="300" width="250">
+                            <div class="product-text">
+                                <!-- <h5>Donna Unit</h5> -->
+                            </div>
+                            <div class="price">
+                                <h4>Belle Unit</h4>
+                                <p>&#8358;400,000.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
